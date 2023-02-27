@@ -48,7 +48,7 @@ function Read() {
           </div>
           {loading === true && <p>Data Loading....</p>}
           {apiData.length > 0 && (
-            <table className="table table-bordered table-striped table-dark table-hover">
+            <table className="table table-bordered table-striped  table-hover">
               <thead>
                 <tr>
                   <th>ID</th>
